@@ -1,0 +1,122 @@
+* { border:0; margin:0 auto; padding:0; outline:none; }
+
+body { padding:0; margin:0; color:#6f6f6f; background:#282828;}
+
+#wrapper{ width: 1100px; margin: auto; padding:0; background:#ffffff; }
+/*Logo*/
+.logo {text-align: center; margin:0;  height:100px; width:auto;}
+.logo h1 {font-size: 40px;  font-family: 'Aleo Light', arial; color: #333333; line-height: 5.474px; padding-top: 40px; }
+.logo h1 a {text-decoration:none; color:#333333;}
+.logo h1 small {  font-size:14px; font-family: 'Oswald Light', arial; font-weight: lighter; color: #cccccc; /*line-height: 15.639;*/ padding-top: 27px; display:block;}
+/*Cat*/
+#CatAndViewCollection{ background-color: #f6f6f6;}
+#CatAndViewCollection .cat{ float: left; padding-left: 80px;}
+#CatAndViewCollection .moveleft{ padding-top: 185px; float: left;}
+.moveright{ padding-top: 185px; float: right;}
+#ViewCollection h1 { font-size: 48px; font-family: 'Aleo Light', arial; color: rgb( 85, 85, 85 ); padding: 45px 230px 0px 0px;}
+#ViewCollection p { font-size: 24px; font-family: 'Aleo Light', arial; color: rgb( 153, 153, 153 ); font-weight: lighter; line-height: 1.25; margin: 13px 100px 0px 0px;}
+#BottonVieCollection{ width: 380px; height: 40px; padding: 45px 0px 38px 0px;}
+#BottonVieCollection a { font-size: 18px;font-family: 'Oswald Light', arial; font-weight: bold; color: rgb( 22, 124, 153 ); line-height: 1.333; text-decoration: none; border-width: 3px; border: 3px solid rgb( 22, 124, 153 ); padding: 8px 21px 8px 21px;}
+/*The finest quality*/
+#FinestQuality { margin: 40px 80px 0px 80px; text-align: center; padding-bottom: 10px; border-bottom: 2px solid rgb( 85, 85, 85 ); }
+#FinestQuality h2 { font-size: 48px; font-family: 'Oswald Light', arial; font-weight: lighter; color: rgb( 85, 85, 85 ); }
+/*The finest quality*/
+#FinestQualityClothes{ margin: 4px 80px 50px 80px; padding: 25px 0px 10px 0px; border-top: 1px solid rgb( 85, 85, 85 );}
+#FinestQualityClothes img { padding: 0px 8px 0px 4px;}
+#FinestQualityClothes h3 { font-size: 30px; font-family: 'Oswald Light', arial; font-weight: lighter; color: rgb( 85, 85, 85 ); text-align: center; padding-top: 50px; }
+#FinestQualityClothes p { padding: 30px  0px 15px 0px; font-size: 18px; font-family: 'Aleo Light', arial; font-weight: bold; color: rgb( 153, 153, 153 ); line-height: 1.667; text-align: center; width: 810px;}
+/*///////////////////////////////////////////////////////////////////*/
+/*Popular products*/
+#PopularStuff { background-color: #f6f6f6; }
+#PopularStuff .PopularProducts {text-align: center; padding-top: 55px; margin: auto;}
+.PopularProducts h2 {font-size: 48px; font-family: 'Oswald Light', arial; font-weight: lighter; color: rgb( 85, 85, 85 ); line-height: 0.625;}
+.PopularProducts a {text-decoration: none; color: rgb( 153, 153, 153 );}
+.PopularProducts h2 small {display:block; padding-top: 25px; font-size: 18px; font-family: 'Aleo Light', arial; font-weight: bold; color: rgb( 153, 153, 153 ); line-height: 1.111;}
+
+.JustArrived{padding-bottom: 70px;}
+.PopularProducts1, 
+.JustArrived {text-align: center; width: auto; margin: 0px; padding-top: 10px;}
+.PopularProducts1 .moveleft, 
+.JustArrived .moveleft {padding-bottom: 150px;}
+.PopularProducts1 .moveright, 
+.JustArrived .moveright {/*height: 330px;*/ padding-top: 135px; padding-bottom: 150px;}
+.PopularProducts1 ul, 
+.JustArrived ul{ list-style-type: none;}
+.PopularProducts1 ul li, 
+.JustArrived ul li{ display: -moz-inline-stack; padding: 15px 10px 6px 10px;}
+.PopularProducts1 ul li, 
+.JustArrived ul li{ display: inline-block; padding: 15px 10px 6px 10px;}
+
+/*.PopularProductsAndJustArrived .ImagesPlusInfo a img {margin-bottom:  : -5px;}*/
+.ProductInfo{ width: 210px; background-color: rgb( 204, 204, 204 ); height: 93px; position: relative; padding-bottom: -5px; text-align: center;}
+.ProductInfo h3{width: 120px; padding: 15px 0px 8px 0px; margin-bottom: 5px; border-bottom: 1px solid  rgb( 187, 187, 187 ); font-size: 16px; font-family: 'Oswald Light', arial; color: rgb( 85, 85, 85 ); }
+.ProductInfo strong { font-size: 18px; font-family: 'Oswald Light', arial; font-weight: bold; color: rgb( 255, 255, 255 );}
+
+.AddToCart{height: 45px; background-color: rgb( 47, 183, 137 ) }
+.AddToCart h4{ padding-top: 10px; text-align: center; font-size: 18px; font-family: 'Oswald Light', arial; font-weight: lighter; color: rgb( 255, 255, 255 );}
+/*Addition*/
+#Addition{margin-left: 0 auto; padding-top: 60px; height: 330px;}
+.HolyGrail, .AllSeeingEye, .BookHowToCaptureTheGalaxy{float: left; margin: 0; padding: 0; width: 250px; text-align: center; }
+.HolyGrail{padding-left: 95px;}
+.AllSeeingEye{padding-left: 80px; padding-right: 75px;}
+.HolyGrail h4, .AllSeeingEye h4, .BookHowToCaptureTheGalaxy h4{ padding-top: 30px; font-size: 30px; font-family: 'Oswald Light', arial; font-weight: lighter; color: rgb( 85, 85, 85 ); line-height: 1; }
+.HolyGrail p, .AllSeeingEye p, .BookHowToCaptureTheGalaxy p{padding-top: 15px; font-size: 16px; font-family: 'Aleo Light', arial; font-weight: bold; color: rgb( 153, 153, 153 ); line-height: 1.5;}
+.HolyGrail p a, .AllSeeingEye p a, .BookHowToCaptureTheGalaxy p a{padding-top: 0; text-decoration: none; font-size: 16px; font-family: 'Oswald Light', arial; font-weight: bold; color: rgb( 85, 85, 85 );}
+/*Social feed*/
+#SocialFeed {background-color: #f6f6f6;  height: 220px;  text-align: center; }
+#SocialFeed h4{ padding: 50px 0 20px 0;  font-size: 24px; font-family: 'Oswald Light', arial; font-weight: bold; color: rgb( 67, 67, 67 ); line-height: 1.5; }
+#SocialFeed h4 a{text-decoration: none;  color: rgb( 153, 153, 153 ) }
+#SocialFeed p{font-size: 24px;  font-family: 'Oswald Light', arial; font-weight: lighter;  color: rgb( 153, 153, 153 ); line-height: 1.5; width: 898px; }
+#SocialFeed p strong{color: #3f8bd5; font-weight: lighter;}
+
+/*
+
+.Lorem_ipsum_dolor_sit_amet___unishop_consectetu {
+  font-size: 24px;
+  font-family: "Oswald";
+  color: rgb( 153, 153, 153 );
+  line-height: 1.5;
+  text-align: center;
+  position: absolute;
+  left: 102px;
+  top: 2816px;
+  width: 898px;
+  height: 60px;
+  z-index: 81;
+}
+
+/*#TopTitle a{
+	text-decoration: none;
+}
+.Title /*.TopMenu li a:visited.PersonalInformation {
+
+	list-style-type: none;
+}
+.Title li /*.PersonalInformation li{
+	display: inline;
+	padding: 0px 10px 0px 10px;
+}
+.MonetaryValues {
+  font-size: 16px;
+  font-family: "Oswald";
+  color: rgb( 153, 153, 153 );
+  line-height: 13.684;
+  text-align: left;
+}
+.UNISHOP {
+  font-size: 40px;
+  font-family: "Aleo";
+  color: rgb( 67, 67, 67 );
+  line-height: 5.474;
+  text-align: center;
+  position: absolute;
+  left: 460px;
+  top: 57px;
+  width: 180px;
+  height: 30px;
+  z-index: 255;
+}
+
+
+
+
